@@ -1,0 +1,36 @@
+.home-who {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 60px;
+
+    .text {
+        width: 40%;
+
+        padding: 0 40px;
+    }
+
+    .images {
+        width: 60%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 46%;
+
+            background-color: $light-grey;
+        }
+
+        .imageOne {
+            margin-top: -40px;
+        }
+
+        .imageTwo {
+            margin-bottom: -40px;
+        }
+    }
+
+}

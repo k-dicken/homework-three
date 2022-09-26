@@ -1,0 +1,45 @@
+.products-desc {
+    width: 100%;
+    padding: $page-padding;
+
+    .selections {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 40px;
+
+        a {
+            width: 33%;
+
+            padding: 6px 10px;
+
+            text-align: center;
+            text-decoration: none;
+            color: $dark-grey;
+
+            border-bottom: $light-grey solid 1px;
+        }
+
+        a:hover {
+            font-weight: bold;  
+            border-bottom: $dark-grey solid 2px;
+        }
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin-bottom: 40px;
+
+        li {
+            margin-left: 40px;
+        }
+    }
+
+
+}

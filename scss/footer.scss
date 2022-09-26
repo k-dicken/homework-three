@@ -1,0 +1,20 @@
+footer {
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: $dark-grey;
+
+    a {
+        margin-bottom: 60px;
+    }
+
+    * {
+        color: $white;
+        margin-bottom: 20px;
+    }
+}

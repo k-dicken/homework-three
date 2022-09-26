@@ -1,0 +1,39 @@
+.software-firmware {
+    padding: $page-padding;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        margin-bottom: 80px;
+    }
+
+    .wrap {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+
+        .firmware-selection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            margin-bottom: 120px;
+
+            a {
+                color: $main-color;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+}

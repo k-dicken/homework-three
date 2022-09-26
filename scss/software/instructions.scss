@@ -1,0 +1,18 @@
+.software-instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: $page-padding;
+
+    .instructions {
+        width: 60%;
+        margin-top: 40px;
+
+        li {
+            width: 60%;
+        }
+        
+    }
+}

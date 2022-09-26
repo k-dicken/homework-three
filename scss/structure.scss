@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+    font-family: $font;
+}
+
+a, span, button, input, li {
+    font-family: $font;
+}
+
+#app {
+    min-height: min-content;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: $light-grey;
+}
+
+button {
+    padding: 8px 12px;
+
+    color: $white;
+    border: none;
+
+    background-color: $main-color;
+}
+
+
